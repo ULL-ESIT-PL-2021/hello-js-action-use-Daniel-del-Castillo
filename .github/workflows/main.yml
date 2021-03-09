@@ -13,7 +13,7 @@ jobs:
         uses: ULL-ESIT-PL-2021/hello-js-action-Daniel-del-Castillo@optional
         id: hello
         with:
-          milliseconds: 1000
+          milliseconds: 100
           name: 'Daniel'
       # Use the output from the `hello` step
       - name: Get the output time
